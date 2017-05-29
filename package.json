@@ -1,0 +1,29 @@
+{
+  "name": "olark-ga",
+  "version": "1.0.0",
+  "description": "Olark webhook to GA",
+  "homepage": "https://github.com/OutshineLabs/olark-ga",
+  "license": "MIT",
+  "author": {
+    "name": "Colin White",
+    "email": "colinwhite93@gmail.com",
+    "url": "https://github.com/MaybeColin"
+  },
+  "main": "index.js",
+  "engines": {
+    "node": "6.x",
+    "npm": "3.x"
+  },
+  "scripts": {
+    "test": "node index.js",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "universal-analytics": "^0.4.13",
+    "uuid": "^3.0.1"
+  }
+}
